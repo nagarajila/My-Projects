@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[setting up reports and started]]>
+    </line>
+    <line>
+      <![CDATA[setting Done]]>
+    </line>
+    <line>
+      <![CDATA[live Done]]>
+    </line>
+    <line>
+      <![CDATA[coupons Done]]>
+    </line>
+    <line>
+      <![CDATA[Learnmore done]]>
+    </line>
+    <line>
+      <![CDATA[searching Done]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-29T09:40:11 IST" name="Default suite" finished-at="2022-07-29T09:41:41 IST" duration-ms="90279">
+    <groups>
+    </groups>
+    <test started-at="2022-07-29T09:40:11 IST" name="Default test" finished-at="2022-07-29T09:41:41 IST" duration-ms="90279">
+      <class name="Runner.logintied">
+        <test-method is-config="true" signature="setupsuite()[pri:0, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:40:10 IST" name="setupsuite" finished-at="2022-07-29T09:40:11 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[setting up reports and started]]>
+            </line>
+            <line>
+              <![CDATA[setting Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupsuite -->
+        <test-method is-config="true" signature="voidsetup()[pri:0, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:40:11 IST" name="voidsetup" finished-at="2022-07-29T09:40:17 IST" duration-ms="6727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- voidsetup -->
+        <test-method signature="loginApp()[pri:1, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:40:17 IST" name="loginApp" finished-at="2022-07-29T09:40:20 IST" duration-ms="2744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:40:20 IST" name="teardown" finished-at="2022-07-29T09:40:21 IST" duration-ms="513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=logintied.loginApp()[pri:1, instance:Runner.logintied@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="livechatoo()[pri:2, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:40:21 IST" name="livechatoo" finished-at="2022-07-29T09:40:33 IST" duration-ms="12395" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[live Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- livechatoo -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:40:33 IST" name="teardown" finished-at="2022-07-29T09:40:33 IST" duration-ms="37" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=livechatoo status=SUCCESS method=logintied.livechatoo()[pri:2, instance:Runner.logintied@614ca7df] output=live Done]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="contactus()[pri:3, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:40:33 IST" name="contactus" finished-at="2022-07-29T09:40:44 IST" duration-ms="10581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactus -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:40:44 IST" name="teardown" finished-at="2022-07-29T09:40:44 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactus status=SUCCESS method=logintied.contactus()[pri:3, instance:Runner.logintied@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="searchapp()[pri:4, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:40:44 IST" name="searchapp" finished-at="2022-07-29T09:40:54 IST" duration-ms="10282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchapp -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:40:54 IST" name="teardown" finished-at="2022-07-29T09:40:54 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchapp status=SUCCESS method=logintied.searchapp()[pri:4, instance:Runner.logintied@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="products()[pri:5, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:40:54 IST" name="products" finished-at="2022-07-29T09:41:07 IST" duration-ms="12486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- products -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:41:07 IST" name="teardown" finished-at="2022-07-29T09:41:07 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=products status=SUCCESS method=logintied.products()[pri:5, instance:Runner.logintied@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="couponsandrewards()[pri:6, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:41:07 IST" name="couponsandrewards" finished-at="2022-07-29T09:41:12 IST" duration-ms="5695" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[coupons Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- couponsandrewards -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:41:12 IST" name="teardown" finished-at="2022-07-29T09:41:12 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=couponsandrewards status=SUCCESS method=logintied.couponsandrewards()[pri:6, instance:Runner.logintied@614ca7df] output=coupons Done]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="Learnmoreee()[pri:7, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:41:12 IST" name="Learnmoreee" finished-at="2022-07-29T09:41:28 IST" duration-ms="15648" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Learnmore done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Learnmoreee -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:41:28 IST" name="teardown" finished-at="2022-07-29T09:41:28 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Learnmoreee status=SUCCESS method=logintied.Learnmoreee()[pri:7, instance:Runner.logintied@614ca7df] output=Learnmore done]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="Facebookkkk()[pri:8, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:41:28 IST" name="Facebookkkk" finished-at="2022-07-29T09:41:34 IST" duration-ms="6028" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[searching Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Facebookkkk -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:41:34 IST" name="teardown" finished-at="2022-07-29T09:41:34 IST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Facebookkkk status=SUCCESS method=logintied.Facebookkkk()[pri:8, instance:Runner.logintied@614ca7df] output=searching Done]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="shoptext()[pri:9, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:41:34 IST" name="shoptext" finished-at="2022-07-29T09:41:37 IST" duration-ms="3068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoptext -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:41:37 IST" name="teardown" finished-at="2022-07-29T09:41:37 IST" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoptext status=SUCCESS method=logintied.shoptext()[pri:9, instance:Runner.logintied@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="privacy()[pri:10, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:41:37 IST" name="privacy" finished-at="2022-07-29T09:41:41 IST" duration-ms="3470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacy -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:41:41 IST" name="teardown" finished-at="2022-07-29T09:41:41 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=privacy status=SUCCESS method=logintied.privacy()[pri:10, instance:Runner.logintied@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Runner.logintied@614ca7df]" started-at="2022-07-29T09:41:41 IST" name="teardown" finished-at="2022-07-29T09:41:41 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Runner.logintied -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
